@@ -1,0 +1,2 @@
+server: nodemon index.js
+webui: cd lib/modules/webui/ && yarn start

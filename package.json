@@ -1,0 +1,45 @@
+{
+  "name": "neo-service",
+  "version": "1.0.0",
+  "engines": {
+    "node": "7.2.1"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:kue": "node_modules/kue/bin/kue-dashboard -p 3050",
+    "start": "nodemon index.js",
+    "start:cli": "node cli/index.js"
+  },
+  "dependencies": {
+    "bell": "^8.5.0",
+    "bluebird": "^3.5.0",
+    "boom": "^4.2.0",
+    "case": "^1.4.2",
+    "glue": "^4.1.0",
+    "handlebars": "^4.0.6",
+    "hapi": "^16.1.0",
+    "hapi-auth-jwt2": "^7.2.4",
+    "hapi-cors": "^1.0.1",
+    "iconv": "^2.2.1",
+    "inert": "^4.1.0",
+    "joi": "^10.2.2",
+    "js-yaml": "^3.8.2",
+    "jsonwebtoken": "^7.3.0",
+    "kue": "^0.11.5",
+    "lodash": "^4.17.4",
+    "md5": "^2.2.1",
+    "moment": "^2.17.1",
+    "mongoose": "^4.9.0",
+    "needle": "^1.4.3",
+    "node-yaml": "^3.0.3",
+    "nodemailer": "^3.1.5",
+    "rollbar": "^0.6.3",
+    "vision": "^4.1.1"
+  },
+  "keywords": [
+    "healthbarometer"
+  ],
+  "author": "Niklas Schröder",
+  "license": "MIT"
+}

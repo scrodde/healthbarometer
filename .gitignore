@@ -1,0 +1,8 @@
+node_modules
+build/app
+npm-debug.log
+log/capistrano.log
+.DS_Store
+log/
+
+config/secrets.yml

@@ -1,0 +1,68 @@
+{
+  "server": {
+    "app": {
+      "slogan": "Healthbarometer"
+    }
+  },
+  "connections": [
+    {
+      "port": 8000
+    }
+  ],
+  "registrations": [
+    {
+      "plugin": "./bootstrap",
+      "options": {
+      }
+    },
+    {
+      "plugin": "bell",
+      "options": {
+      }
+    },
+    {
+      "plugin": "hapi-auth-jwt2",
+      "options": {
+      }
+    },
+    {
+      "plugin": "hapi-cors",
+      "options": {
+      }
+    },
+    {
+      "plugin": "./auth",
+      "options": {
+      }
+    },
+    {
+      "plugin": "./forms",
+      "options": {
+        "routes": {
+          "prefix": "/api"
+        }
+      }
+    },
+    {
+      "plugin": "./entries",
+      "options": {
+        "routes": {
+          "prefix": "/api"
+        }
+      }
+    },
+    {
+      "plugin": "./users",
+      "options": {
+        "routes": {
+          "prefix": "/api"
+        }
+      }
+    },
+    {
+      "plugin": "./webui",
+      "options": {
+      }
+    }
+  ]
+}

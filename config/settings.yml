@@ -1,0 +1,26 @@
+default: &default
+  allowedDomains:
+    - agencyleroy.com
+    - leroy-creative.com
+  admins:
+    - niklas@leroy-creative.com
+
+development:
+  <<: *default
+  urls:
+    apiBaseUrl: http://localhost:8000/api
+    authUrl: http://localhost:8000/auth/google
+    baseUrl: http://localhost:8080
+
+test:
+  <<: *default
+
+staging:
+  <<: *default
+
+production:
+  <<: *default
+  urls:
+    apiBaseUrl: http://hb.scrod.de/api
+    authUrl: http://hb.scrod.de/auth/google
+    baseUrl: http://hb.scrod.de

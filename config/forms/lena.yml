@@ -1,0 +1,12 @@
+- type: section
+  title: Demographic information
+  description: Description
+  children:
+    - type: checkbox
+      title: "Vad är du?"
+      options:
+        - Ett troll
+        - Snygging
+        - Bosslady
+    - title: "Är Lena sexy as fuck?"
+      type: radio

@@ -1,0 +1,195 @@
+- type: section
+  title: Demographic information
+  description: Demographic information description
+  children:
+    - type: checkbox
+      title: "Your responsibilities (select multiple when appropriate)"
+      options:
+        - Account Manager
+        - Applicaton development
+        - Architect
+        - Art Director
+        - Board member
+        - Business
+        - Copywrighter
+        - Creative Director
+        - Customer service
+        - Designer
+        - Developer
+        - Human resources
+        - Junior Developer
+        - Lead Developer
+        - Maintenance
+        - Manager
+        - Photographer
+        - Process Improvement
+        - Product owner
+        - Project Management
+        - Quality Assurance
+        - Quality manager
+        - Requirements engineer
+        - Sales
+        - Team leader
+        - Testing
+    - title: "What other responsibilities do you have, if any?"
+      type: text
+    - title: "How long have you been employed in the company?"
+      type: text
+    - title: "Our business is profitable?"
+      type: radio
+- type: section
+  title: Hereditary Factors
+  description: Hereditary Factors description
+  children:
+    - title: "Most of our people have a broad work profile (e.g. they participate in many of the following: product development, customer projects, project management, marketing, sales / sales support, customer support, consulting, deliveries, training, etc.)"
+      type: radio
+    - title: "New products or features are developed in customer-specific projects"
+      type: radio
+    - title: "A downswing in cash flow is quickly reflected in the ability to pay salaries"
+      type: radio
+    - title: "Strategy and long-term plans have been clearly defined"
+      type: radio
+    - title: "Strategy and long-term plans have been clearly communicated"
+      type: radio
+    - title: "Developers, designers, project managers, sales, or senior managers are evaluated and rewarded in ways that are harmful to the whole"
+      type: radio
+    - title: "Our organizational structure supports our current operations"
+      type: radio
+    - title: "Each of our different activity types (e.g. product development projects, customer specific projects, maintenance, support, deliveries, etc.) has its own practices that work"
+      type: radio
+- type: section
+  title: Lifestyle
+  description: Lifestyle desc
+  children:
+    - type: section
+      title: Structure of the development portfolio
+      description: Structure of the development portfolio description
+      children:
+        - title: "We have identified the different types of activities people spend their time on (e.g. product development projects, customer-specific development, maintenance, deliveries, etc.)"
+          type: radio
+        - title: "Business people are able to see the 'big picture' of ongoing activities (a.k.a. the development portfolio)"
+          type: radio
+        - title: "Development people are able to see the 'big picture' of ongoing activities (a.k.a. the development portfolio)"
+          type: radio
+        - title: "I understand how much time, from a business perspective, I should spend on different types of activities"
+          type: radio
+        - title: "We have criteria for prioritizing our ongoing development activities"
+          type: radio
+        - title: "I understand the priorities between ongoing activities (e.g. project X vs. project Y, project X vs. support request Z, etc.)"
+          type: radio
+        - title: "I understand the dependencies of the ongoing activities"
+          type: radio
+    - type: section
+      title: Development portfolio management process and practices
+      description: Development portfolio management process and practices description
+      children:
+        - title: "We have defined who are responsible for development portfolio management"
+          type: radio
+        - title: "It is clear who should, in different situations, participate in development-related decision making (e.g. in the middle of a project, when an urgent maintenance / customer request arrives, when making an offer, when releasing a product, etc.)"
+          type: radio
+        - title: "All the ongoing and immediately upcoming activities that require attention from the developers are managed as an explicit portfolio"
+          type: radio
+        - title: "We actively reflect the content of the development portfolio to the strategy of the company"
+          type: radio
+        - title: "In decision making we mainly consider individual activities and do not take the 'big picture' into account"
+          type: radio
+- type: section
+  title: Symptoms
+  description: Symptoms description
+  children:
+    - type: section
+      title: Multitasking
+      description: Multitasking description
+      children:
+        - title: "How many different activities (product development projects, customer projects, etc.) are currently ongoing in your company?"
+          type: text
+        - title: "How many different activities (customer development projects, product development projects, maintenance, etc.) are currently ongoing that you are involved in?"
+          type: text
+        - title: "In addition to my main responsibility, I also have other, time demanding responsibilities"
+          type: radio
+        - title: "We have too many parallel ongoing activities"
+          type: radio
+        - title: "A single person is usually assigned to only one activity (e.g. a project) at the same time"
+          type: radio
+        - title: "We complete one thing at a time and don't shift our attention from one incomplete task to another"
+          type: radio
+    - type: section
+      title: Fire fighting
+      description: Fire fighting description
+      children:
+        - title: "'Fire fighting' describes our work in practice"
+          type: radio
+        - title: "People are being shifted from one activity (eg. a project) to another regardless of previously agreed assignments"
+          type: radio
+        - title: "Changes in resourcing for one activity (eg. a project) cause uncontrolled changes in other activities"
+          type: radio
+        - title: "People are too committed to their current activities, that it is hard to react to suddenly emerging opportunities (eg. a new pitch)"
+          type: radio
+    - type: section
+      title: Overload
+      description: Overload description
+      children:
+        - title: "I work overtime"
+          type: radio
+        - title: "When selling or making offers we do not consider how to resource / assign people to the work in practice"
+          type: radio
+        - title: "New activities (e.g. projects) are launched too often"
+          type: radio
+        - title: "Our employees have too much to do and quality of work suffers from it"
+          type: radio
+        - title: "We have enough people in proportion to the amount of work"
+          type: radio
+    - type: section
+      title: Decision making
+      description: Decision making description
+      children:
+        - title: "Activities (eg. projects) are never killed"
+          type: radio
+        - title: "If time runs out, developers resolve by themselves what can be left undone"
+          type: radio
+        - title: "The real status of activities is known in development portfolio-level decision making"
+          type: radio
+        - title: "The priority ranking of activities changes constantly"
+          type: radio
+        - title: "Management reacts to problems detected in activities (e.g. projects) too late"
+          type: radio
+        - title: "Senior management is actively involved in portfolio-level decision making"
+          type: radio
+        - title: "The dialogue between Business and Development people works"
+          type: radio
+    - type: section
+      title: Strategic alignment and portfolio balance
+      description: Strategic alignment and portfolio balance
+      children:
+        - title: "Ongoing activities are in alignment with the company's strategy"
+          type: radio
+        - title: "Ongoing activities are essential to our business"
+          type: radio
+        - title: "We have a sufficient amount of development projects that incrementally improve existing products or services"
+          type: radio
+        - title: "We have a sufficient amount of product or service development projects that aim for new business"
+          type: radio
+    - type: section
+      title: Slipping schedules
+      description: Slipping schedules description
+      children:
+        - title: "Ongoing activities are behind schedule"
+          type: radio
+        - title: "Progress of ongoing activities is reported optimistically"
+          type: radio
+    - type: section
+      title: Change in performance
+      description: Change in performance description
+      children:
+        - title: "From a business viewpoint, development performs its duties well"
+          type: radio
+        - title: "Our capability to produce high-quality software has improved during the past year"
+          type: radio
+    - type: section
+      title: Perceived improvement needs
+      description: Perceived improvement needs description
+      children:
+        - title: "We should invest more in improving the practices of individual activities (e.g. project mgmt., team practices, deployment processes, sales processes, customer support, etc.)"
+          type: radio
+        - title: "We should invest more in improving development portfolio management (e.g. prioritizing activities, linking strategy with daily work, structuring the development portfolio, etc.)"
+          type: radio
